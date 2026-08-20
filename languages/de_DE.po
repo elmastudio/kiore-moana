@@ -1,0 +1,928 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Kiore Moana v1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-28 15:11+0000\n"
+"PO-Revision-Date: 2019-12-28 15:13+0000\n"
+"Last-Translator: admin <marc@jandt.net>\n"
+"Language-Team: Deutsch\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=n != 1;\n"
+"X-Generator: Loco https://localise.biz/\n"
+"X-Poedit-Language: \n"
+"X-Poedit-Country: \n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;"
+"_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: \n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes\n"
+"Language: de_DE\n"
+"X-Loco-Version: 2.3.1; wp-5.3.2"
+
+#: functions.php:306
+#, php-format
+msgid " %s "
+msgstr " %s "
+
+#: content-single.php:25 content.php:25 image.php:25 inc/widgets.php:600
+#, php-format
+msgid "% comments"
+msgstr "% Kommentare"
+
+#. translators: 1: date
+#: functions.php:310
+#, php-format
+msgid "%1$s"
+msgstr "%1$s"
+
+#: inc/theme-options.php:111
+#, php-format
+msgid "%s Theme Options"
+msgstr "%s Theme Optionen"
+
+#: single.php:26
+msgid "&larr; Previous Post"
+msgstr "&larr; Vorheriger Artikel"
+
+#: inc/theme-options.php:188
+msgid ". Then copy your logo image file URL and insert the URL here."
+msgstr ". Dann kopiere deine Logobild-URL und trage die URL hier ein."
+
+#: image.php:25 inc/widgets.php:600
+msgid "0 comments"
+msgstr "0 Kommentare"
+
+#. gettext fix: identical singular and plural forms found, that may be ambiguous! Please check the code!
+#: content-single.php:25 content.php:25 image.php:25 inc/widgets.php:600
+msgid "1 comment"
+msgid_plural "%1$s comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: comments.php:28
+#, php-format
+msgid "1 Comment so far"
+msgid_plural "%1$s Comments"
+msgstr[0] "1 Kommentar"
+msgstr[1] "%1$s Kommentare"
+
+#: inc/widgets.php:440
+msgid "500px URL:"
+msgstr "500px URL:"
+
+#: comments.php:66
+msgid "<h3 id=\"reply-title\">Leave a Reply</h3>"
+msgstr "<h3 id=\"reply-title\">Schreibe eine Antwort</h3>"
+
+#: comments.php:67
+msgid ""
+"<p class=\"comment-note\">Required fields are marked <span "
+"class=\"required\">*</span>.</p>"
+msgstr ""
+"<p class=\"comment-note\">Pflichtfelder sind mit <span class=\"required\">"
+"*</span> markiert.</p>"
+
+#: functions.php:377 comments.php:50
+msgid "<span>&larr; Older</span>"
+msgstr "<span>&larr; Ältere</span>"
+
+#: image.php:82
+msgid "<span>&larr; Previous</span>"
+msgstr "<span>&larr; Vorherige</span>"
+
+#: functions.php:378 comments.php:51
+msgid "<span>Newer &rarr;</span>"
+msgstr "<span>Neuere &rarr;</span>"
+
+#: image.php:83
+msgid "<span>Next &rarr;</span>"
+msgstr "<span>Neuere &rarr;</span>"
+
+#: functions.php:333
+msgid "<span>Pingback:</span>"
+msgstr "<span>Pingback:</span>"
+
+#: inc/widgets.php:20
+msgid "A number of Flickr preview images"
+msgstr "Eine Anzahl von Flickr Vorschaubildern"
+
+#: inc/widgets.php:560
+msgid "A number of Recent Posts for your widget page"
+msgstr "Eine Anzahl neuester Artikel für deine Widget Info-Seite"
+
+#: inc/widgets.php:655
+msgid "About (Kiore Moana)"
+msgstr "About (Kiore Moana)"
+
+#: inc/widgets.php:717
+msgid "About Subtitle:"
+msgstr "About-Untertitel:"
+
+#: inc/widgets.php:722
+msgid "About Text:"
+msgstr "About Text:"
+
+#: inc/widgets.php:657
+msgid "About widget with picture and intro text"
+msgstr "\"Über Dich\" Widget mit Bild und einleitendem Text"
+
+#: archive.php:29
+#, php-format
+msgid "All Posts by &lsquo;%s&rsquo;"
+msgstr "Alle Artikel von &lsquo;%s&rsquo;"
+
+#: archive.php:22
+#, php-format
+msgid "All Posts Filed in &lsquo;%s&rsquo;"
+msgstr "Alle Artikel veröffentlicht in &lsquo;%s&rsquo;"
+
+#: archive.php:25
+#, php-format
+msgid "All Posts Tagged &lsquo;%s&rsquo;"
+msgstr "Alle Artikel mit dem Schlagwort &lsquo;%s&rsquo;"
+
+#: 404.php:22
+msgid ""
+"Apologies, but the page you requested could not be found. Perhaps searching "
+"will help!"
+msgstr ""
+"Entschuldigung, aber die von dir gesuchte Seiten könnte leider nicht "
+"gefunden werden. Vielleicht hilft eine erneute Suche!"
+
+#: inc/widgets.php:420
+msgid "App.net URL:"
+msgstr "App.net URL:"
+
+#. Name of the template
+msgid "Archive Page Template"
+msgstr "Archivseiten Template"
+
+#: archive.php:42
+msgid "Archives"
+msgstr "Archiv"
+
+#: page-templates/page-info.php:13
+msgid "Back Home"
+msgstr "Startseite"
+
+#: inc/widgets.php:470
+msgid "Behance Network URL:"
+msgstr "Behance Network URL:"
+
+#: functions.php:63
+msgid "black"
+msgstr "schwarz"
+
+#: functions.php:83
+msgid "blue"
+msgstr "blau"
+
+#: content-single.php:53
+msgid "Category"
+msgstr "Kategorie"
+
+#: inc/widgets.php:637
+msgid "Category ID numbers (to choose which categories to include):"
+msgstr ""
+"Kategorie ID Nummern (um zu bestimmen, welche Kategorien angezeigt werden "
+"sollen):"
+
+#: inc/theme-options.php:197
+msgid ""
+"Check this box hide the site title and only include your custom logo image."
+msgstr ""
+"Wähle diese Option, um den Seiten-Titel zu verbergen und nur dein eigenes "
+"Logobild anzuzeigen."
+
+#: inc/theme-options.php:230
+msgid ""
+"Check this box to include share buttons (for Twitter, Facebook, Google+) on "
+"your blogs front page and on single post pages."
+msgstr ""
+"Wähle diese Option, um die Share-Buttons (für Twitter, Google+, Facebook) "
+"auf der Blog-Startseite, sowie auf Artikel-Einzelseiten anzuzeigen."
+
+#: inc/theme-options.php:239
+msgid ""
+"Check this box to include the share post buttons <strong>only</strong> on "
+"single posts (below the post content)."
+msgstr ""
+"Wähle diese Option, um die Teilen-Buttons <strong>nur</strong> in Einzel-"
+"Artikeln (unterhalb des Artikel-Inhalts) anzuzeigen."
+
+#: inc/theme-options.php:206
+msgid ""
+"Check this box to show automatic post excerpts for standard posts. With this "
+"option you will not need to add the more tag in posts."
+msgstr ""
+"Wähle diese Option, um automatische Artikel-Auszüge (Exzerpte) der Standard-"
+"Artikel anzuzeigen. Mit dieser Option benötigst du keine more-links für "
+"deine Artikel."
+
+#: inc/widgets.php:80
+msgid "Choose user or group:"
+msgstr "Wähle Person oder Gruppe:"
+
+#: inc/theme-options.php:164
+#, php-format
+msgid ""
+"Choose your Info Page background color, the default color is: <strong>"
+"%s</strong>."
+msgstr ""
+"Wähle deine Info-Seiten Hintergrundfarbe, die Standard-Farbe ist: <strong>"
+"%s</strong>."
+
+#: inc/theme-options.php:175
+#, php-format
+msgid ""
+"Choose your Info Page button hover color, the default color is: <strong>"
+"%s</strong>."
+msgstr ""
+"Wähle deine Info-Seiten Button Hoverfarbe, die Standardfarbe ist:  <strong>"
+"%s</strong>."
+
+#: inc/theme-options.php:142
+#, php-format
+msgid "Choose your link color, the default link color is: <strong>%s</strong>."
+msgstr "Wähle deine Link-Farbe, die Standard-Farbe ist: <strong>%s</strong>."
+
+#: inc/theme-options.php:153
+#, php-format
+msgid ""
+"Choose your text link hover color, the default link hover color is: <strong>"
+"%s</strong>."
+msgstr ""
+"Wähle deine Textlink-Hover Farbe, die Standard-Farbe ist: <strong>%s</strong>"
+"."
+
+#: comments.php:61
+msgid "Comments are closed."
+msgstr "Kommentare sind geschlossen."
+
+#: inc/theme-options.php:134
+msgid "Custom Colors"
+msgstr "Eigene Farben wählen"
+
+#: inc/theme-options.php:246
+msgid "Custom CSS"
+msgstr "Eigenes CSS"
+
+#: inc/theme-options.php:182
+msgid "Custom Logo, Post Excerpts and Footer Text"
+msgstr "Eigenes Logo, Artikel-Exzerpte und Footer-Text"
+
+#: inc/theme-options.php:215
+msgid "Customize the footer credit text. Standard HTML is allowed."
+msgstr "Trage deinen eigenen Footer-Text ein. Standard HTML-Code ist möglich."
+
+#: archive.php:33
+#, php-format
+msgid "Daily Archives of: %s"
+msgstr "Alle Artikel von %s"
+
+#: inc/widgets.php:475
+msgid "deviantART URL:"
+msgstr "deviantART URL:"
+
+#: inc/widgets.php:455
+msgid "Dribbble URL:"
+msgstr "Dribbble URL:"
+
+#: functions.php:313 functions.php:334 content-single.php:28 content.php:28
+#: image.php:28
+msgid "Edit"
+msgstr "Bearbeiten"
+
+#. Author of the theme
+msgid "Elmastudio"
+msgstr ""
+
+#: inc/widgets.php:410
+msgid "Facebook URL:"
+msgstr "Facebook URL:"
+
+#: inc/widgets.php:106
+msgid "Featured Video (Kiore Moana)"
+msgstr ""
+
+#: inc/widgets.php:460
+msgid "Ffffound URL:"
+msgstr "Ffffound URL:"
+
+#: page-templates/page-archive.php:24
+msgid "Filter by Tags"
+msgstr "Filter nach Schlagwörtern"
+
+#: inc/theme-options.php:127
+msgid ""
+"First create a new page to be your info page (you can name the page as you "
+"like).<br/> Set the Page Attribute / Template / <strong>Info Page "
+"Template</strong> for this page, deactivate comments (see Discussion / Allow "
+"Comments) and publish the page.<br/> Now include the page URL of your new "
+"info page here."
+msgstr ""
+"Erstelle zuerst eine neue Seite für deine Info-Seite (du kannst ihr einen "
+"beliebigen Namen geben). <br/> Setze die Seiten-Attribute / Template / Info "
+"Page für diese Seite, deaktiviere die Kommentare (siehe Diskussion / Erlaube "
+"Kommentare) und veröffentliche deine neue Seite. Dann kannst du die URL "
+"diese neuen Seite hier eintragen."
+
+#: inc/widgets.php:18
+msgid "Flickr (Kiore Moana)"
+msgstr "Flickr (Kiore Moana)"
+
+#: inc/widgets.php:66
+msgid "Flickr ID:"
+msgstr ""
+
+#: inc/widgets.php:425
+msgid "Flickr URL:"
+msgstr "Flickr URL:"
+
+#: inc/theme-options.php:211 inc/theme-options.php:213
+msgid "Footer Credit Text"
+msgstr "Footer Credit-Text"
+
+#: functions.php:116
+msgid "Footer Navigation (no sub menus supported)"
+msgstr "Footer Navigation (es werden keine Untermenüs unterstützt)"
+
+#: inc/widgets.php:505
+msgid "Foursquare URL:"
+msgstr "Foursquare URL:"
+
+#: inc/widgets.php:510
+msgid "GitHub URL:"
+msgstr "GitHub URL:"
+
+#: inc/widgets.php:415
+msgid "Google+ URL:"
+msgstr "Google+ URL:"
+
+#: functions.php:78
+msgid "grey"
+msgstr "grau"
+
+#: inc/widgets.php:495
+msgid "Grooveshark URL:"
+msgstr "Grooveshark URL:"
+
+#: inc/widgets.php:83
+msgid "Group"
+msgstr "Gruppe"
+
+#: inc/widgets.php:739
+msgid "Header Slogan (Kiore Moana)"
+msgstr "Header Slogan (Kiore Moana)"
+
+#: inc/widgets.php:779
+msgid "Header Slogan Text:"
+msgstr "Header Slogan Text:"
+
+#: inc/widgets.php:774
+msgid "Header Slogan Title:"
+msgstr "Header Slogan Titel:"
+
+#: functions.php:357
+msgid "Header Slogan Widget Area"
+msgstr "Header-Slogan Widgetbereich"
+
+#: inc/widgets.php:741
+msgid ""
+"Header slogan widget with headline and slogan text for your header area."
+msgstr ""
+"Header Slogan Widget mit Überschrift und einem Slogantext für deinen "
+"Headerbereich."
+
+#: inc/theme-options.php:193 inc/theme-options.php:195
+msgid "Hide Site Title"
+msgstr "Seiten-Titel nicht anzeigen"
+
+#: page-templates/page-info.php:13
+msgid "Home Button"
+msgstr "Startseite Button"
+
+#: footer.php:33
+msgid "https://wordpress.org/"
+msgstr ""
+
+#. Author URI of the theme
+msgid "https://www.elmastudio.de/en/themes/"
+msgstr ""
+
+#. URI of the theme
+msgid "https://www.elmastudio.de/en/themes/kioremoana/"
+msgstr ""
+
+#: inc/widgets.php:712
+msgid "Image Height (e.g. 320):"
+msgstr "Bild-Höhe (z.B. 320):"
+
+#: inc/widgets.php:702
+msgid "Image URL:"
+msgstr "Bild URL:"
+
+#: inc/widgets.php:707
+msgid "Image Width (e.g. 320):"
+msgstr "Bild-Breite (z.B. 320):"
+
+#: inc/theme-options.php:248 inc/theme-options.php:250
+msgid "Include Custom CSS"
+msgstr "Eigenes CSS integrieren"
+
+#: inc/theme-options.php:252
+msgid "Include custom CSS styles, use !important to overwrite existing styles."
+msgstr ""
+"Integriere eigene CSS-Styles. Nutze !important , um bestehende CSS-Styles zu "
+"überschreiben."
+
+#: masthead.php:14
+msgid "Info"
+msgstr "Info"
+
+#: masthead.php:14
+msgid "Info Button"
+msgstr "Info Button"
+
+#: inc/theme-options.php:158 inc/theme-options.php:160
+msgid "Info Page Background Color"
+msgstr "Info-Seite Hintergrundfarbe"
+
+#: inc/theme-options.php:169 inc/theme-options.php:171
+msgid "Info Page Button Hover Color"
+msgstr "Hover-Farbe des Info-Seiten Buttons"
+
+#: inc/theme-options.php:122
+msgid "Info Page Settings"
+msgstr "Info-Seiten Einstellung"
+
+#. Name of the template
+msgid "Info Page Template"
+msgstr "Infoseiten Template"
+
+#: inc/theme-options.php:123 inc/theme-options.php:125
+msgid "Info Page URL"
+msgstr "Info-Seiten URL"
+
+#: inc/widgets.php:430
+msgid "Instagram URL:"
+msgstr "Instagram URL:"
+
+#: archive.php:84
+msgid "It seems we can&rsquo;t find what you&rsquo;re looking for."
+msgstr "Es scheint als könnten wir nicht finden, wonach du suchst."
+
+#: comments.php:32
+msgid "Join the Conversation"
+msgstr "An der Unterhaltung teilnehmen"
+
+#. Name of the theme
+msgid "Kiore Moana"
+msgstr ""
+
+#. Description of the theme
+msgid ""
+"Kiore Moana is an easy-to-use one-column, responsive blog theme with big "
+"thumbnails, bold and beautiful typography, post format suppport and a "
+"minimal, widgetized info page option. The theme design embraces readability "
+"and white space,. Kiore Moana is a great theme for personal blogs, travel or "
+"photography blogs."
+msgstr ""
+
+#: functions.php:45
+msgid "L"
+msgstr ""
+
+#: functions.php:44
+msgid "large"
+msgstr "groß"
+
+#: functions.php:50
+msgid "larger"
+msgstr "größer"
+
+#: inc/widgets.php:490
+msgid "Last.fm URL:"
+msgstr "Last.fm URL:"
+
+#: inc/widgets.php:89
+msgid "Latest"
+msgstr "Neuste"
+
+#: content-single.php:25
+msgid "Leave a Reply"
+msgstr "Hinterlasse eine Antwort"
+
+#: content.php:25
+msgid "Leave a reply"
+msgstr "Hinterlasse eine Antwort"
+
+#: functions.php:73
+msgid "light grey"
+msgstr "hellgrau"
+
+#: inc/theme-options.php:136 inc/theme-options.php:138
+msgid "Link Color"
+msgstr "Linkfarbe"
+
+#: inc/widgets.php:515
+msgid "Linkedin URL:"
+msgstr "Linkedin URL:"
+
+#: inc/theme-options.php:184 inc/theme-options.php:186
+msgid "Logo Image"
+msgstr "Logo-Bild"
+
+#: functions.php:39
+msgid "M"
+msgstr ""
+
+#: functions.php:347
+msgid "Main Widget Area"
+msgstr "Haupt-Widgetbereich"
+
+#: archive.php:36
+#, php-format
+msgid "Monthly Archives of: %s"
+msgstr "Alle Artikel des Monats: %s"
+
+#: masthead.php:14
+msgid "More Info"
+msgstr "Mehr Info"
+
+#: single.php:27
+msgid "Next Post  &rarr;"
+msgstr "Nächster Artikel  &rarr;"
+
+#: 404.php:18 archive.php:80 search.php:37
+msgid "Nothing Found"
+msgstr "Keine Einträge gefunden"
+
+#: comments.php:69
+msgctxt "noun"
+msgid "Comment <span class=\"required\">*</span>"
+msgstr "Pflichtfeld <span class=\"required\">*</span>"
+
+#: inc/widgets.php:71
+msgid "Number of photos:"
+msgstr "Anzahl der Bilder:"
+
+#: inc/widgets.php:632
+msgid "Number of posts to display:"
+msgstr "Anzahl der Artikel:"
+
+#: content-single.php:39 content.php:53
+msgid "Pages:"
+msgstr "Seiten:"
+
+#: content.php:14 content.php:20
+#, php-format
+msgid "Permalink to %s"
+msgstr "Permalink zu %s"
+
+#: inc/widgets.php:435
+msgid "Picasa URL:"
+msgstr "Picasa URL:"
+
+#: inc/widgets.php:465
+msgid "Pinterest URL:"
+msgstr "Pinterest URL:"
+
+#: content.php:19
+msgid "Post"
+msgstr "Artikel"
+
+#: comments.php:70
+msgid "Post Comment"
+msgstr "Kommentar senden"
+
+#: inc/theme-options.php:202 inc/theme-options.php:204
+msgid "Post Excerpts"
+msgstr "Artikel-Exzerpte"
+
+#: content-single.php:19 image.php:19
+msgid "Post Format"
+msgstr "Artikelformat"
+
+#: content-single.php:46
+#, php-format
+msgid "Posted by %s"
+msgstr "Veröffentlicht von %s"
+
+#: footer.php:33
+msgid "Proudly powered by"
+msgstr "Proudly powered by"
+
+#: functions.php:141
+msgctxt "PT Sans font: on or off"
+msgid "on"
+msgstr "am"
+
+#: functions.php:143
+msgctxt "Raleway font: on or off"
+msgid "on"
+msgstr "am"
+
+#: inc/widgets.php:90
+msgid "Random"
+msgstr "Zufällige"
+
+#: functions.php:241 functions.php:247
+msgid "Read more"
+msgstr "Weiterlesen"
+
+#: inc/widgets.php:558
+msgid "Recent Posts (Kiore Moana)"
+msgstr "Neueste Artikel (Kiore Moana)"
+
+#: functions.php:88
+msgid "red"
+msgstr "rot"
+
+#: functions.php:38
+msgid "regular"
+msgstr "normal"
+
+#: functions.php:320
+msgid "Reply"
+msgstr "Antworten"
+
+#: inc/widgets.php:540
+msgid "RSS for Comments URL:"
+msgstr "RSS der Kommentare URL:"
+
+#: inc/widgets.php:535
+msgid "RSS-Feed URL:"
+msgstr "RSS-Feed URL:"
+
+#: functions.php:33
+msgid "S"
+msgstr ""
+
+#: searchform.php:11
+msgid "Search"
+msgstr "Suche"
+
+#: search.php:18
+#, php-format
+msgid "Search Results for &lsquo;%s&rsquo;"
+msgstr "Suchergebnisse für &lsquo;%s&rsquo;"
+
+#: inc/theme-options.php:224
+msgid "Share Buttons"
+msgstr "Teilen Buttons"
+
+#: inc/theme-options.php:226 inc/theme-options.php:228
+msgid "Share option for posts"
+msgstr "Teilen-Buttons für Artikel"
+
+#: inc/theme-options.php:235 inc/theme-options.php:237
+msgid "Share option on single posts only"
+msgstr "Teilen-Buttons nur in Einzel-Artikeln"
+
+#: share.php:10
+msgid "Share This"
+msgstr "Teilen"
+
+#: inc/widgets.php:108
+msgid "Show a featured video"
+msgstr "Zeige ein Featured Video"
+
+#: inc/widgets.php:168
+msgid "Show icons with links to your social profiles"
+msgstr "Zeige Icons mit Links zu deinen sozialen Profilen"
+
+#: inc/widgets.php:87
+msgid "Show latest or random pictures:"
+msgstr "Zeige neuste oder zufällige Bilder:"
+
+#: inc/widgets.php:485
+msgid "Slideshare URL:"
+msgstr "Slideshare URL:"
+
+#: functions.php:32
+msgid "small"
+msgstr "klein"
+
+#: inc/widgets.php:166
+msgid "Social Links (Kiore Moana)"
+msgstr "Social Links (Kiore Moana)"
+
+#: search.php:40
+msgid "Sorry, but nothing matched your search criteria. Please try again!"
+msgstr ""
+"Entschuldige, es konnten keine Einträge gefunden werden. Bitte versuche es "
+"erneut!"
+
+#: inc/widgets.php:500
+msgid "Soundcloud URL:"
+msgstr "Soundcloud URL:"
+
+#: inc/widgets.php:480
+msgid "Squidoo URL:"
+msgstr "Squidoo URL:"
+
+#: content-single.php:56
+msgid "Tags"
+msgstr "Schlagwörter"
+
+#: inc/theme-options.php:147 inc/theme-options.php:149
+msgid "Text Link Hover Color"
+msgstr "Text Link-Hover Farbe"
+
+#: page-templates/page-archive.php:29
+msgid "The Latest 30 Posts"
+msgstr "Die neuesten 30 Artikel"
+
+#: page-templates/page-archive.php:34
+msgid "The Monthly Archive"
+msgstr "Artikel nach Monaten sortiert"
+
+#: inc/theme-options.php:63 inc/theme-options.php:64
+msgid "Theme Options"
+msgstr "Theme Optionen"
+
+#: footer.php:34
+#, php-format
+msgid "Theme: %1$s by %2$s"
+msgstr "Theme: %1$s von %2$s"
+
+#: comments.php:12
+msgid ""
+"This post is password protected. Enter the password to view any comments."
+msgstr ""
+"Dieser Artikel ist Passwort geschützt. Trage das Passwort ein, um die "
+"Kommentare zu sehen."
+
+#: inc/widgets.php:61 inc/widgets.php:143 inc/widgets.php:400
+#: inc/widgets.php:627 inc/widgets.php:697
+msgid "Title:"
+msgstr "Titel:"
+
+#: inc/widgets.php:530
+msgid "Tumblr URL:"
+msgstr "Tumblr URL:"
+
+#: share.php:13
+msgid "Tweet"
+msgstr "Twitter"
+
+#: inc/widgets.php:405
+msgid "Twitter URL:"
+msgstr "Twitter URL:"
+
+#: searchform.php:10
+msgid "Type to Search ..."
+msgstr "Suche ..."
+
+#: inc/theme-options.php:188
+msgid ""
+"Upload your own logo image (flexible width and height, e.g. 115x115px) using "
+"the "
+msgstr ""
+"Lade dein eigenes Logobild hoch (Breite und Höhe sind flexibel, z.B. "
+"115x115px) und nutze den "
+
+#: inc/widgets.php:82
+msgid "User"
+msgstr "Person"
+
+#: inc/widgets.php:148
+msgid "Video embed code:"
+msgstr "Video-Einbettungscode:"
+
+#: inc/widgets.php:450
+msgid "Vimeo URL:"
+msgstr "Vimeo URL:"
+
+#: functions.php:68
+#, fuzzy
+msgid "white"
+msgstr "weiß"
+
+#: functions.php:359
+msgid "Widget area for the header slogan."
+msgstr "Widgetbereich für den Header-Slogan"
+
+#: functions.php:349
+msgid "Widgets will appear in the Kiore Moana Info Page Template."
+msgstr "Widgets werden auf der Kiore Moana Infoseiten-Vorlage erscheinen."
+
+#: inc/theme-options.php:188
+msgid "WordPress Media Uploader"
+msgstr "WordPress Mediathek"
+
+#: inc/widgets.php:525
+msgid "WordPress URL:"
+msgstr "WordPress URL:"
+
+#: footer.php:33
+msgid "WordPress."
+msgstr "WordPress."
+
+#: inc/widgets.php:520
+msgid "Xing URL:"
+msgstr "Xing URL:"
+
+#: functions.php:51
+msgid "XL"
+msgstr ""
+
+#: archive.php:39
+#, php-format
+msgid "Yearly Archives of: %s"
+msgstr "Alle Artikel des Jahres: %s"
+
+#: functions.php:318
+msgid "Your comment is awaiting moderation."
+msgstr "Dein Kommentar befindet sich in Moderation."
+
+#: inc/widgets.php:445
+msgid "YouTube URL:"
+msgstr "YouTube URL:"
+
+msgid ""
+"<strong>%s</strong> supports automatic updates using WordPress' update "
+"mechanism. To use this feature you need to activate the theme using your "
+"Product Key, which can be found in your Elmastudio account dashboard. The "
+"theme stays fully functional without activation and still can be updated "
+"manually. %sClick here%s to activate <strong>%s</strong>."
+msgstr ""
+"<strong>%s</strong> unterstützt automatische Updates über den "
+"Aktualisierungsmechanismus von WordPress. Dazu muss das Theme mit einem "
+"Produktschlüssel aktiviert werden, den du in deinem Elmastudio-Konto findest."
+" Das Theme funktioniert uneingeschränkt auch ohne diese Aktivierung und "
+"lässt sich jederzeit manuell aktualisieren. %sKlicke hier%s um <strong>"
+"%s</strong> zu aktivieren."
+
+msgid ""
+"<b>Warning!</b> You're blocking external requests which means you won't be "
+"able to get %s updates. Please add %s to %s."
+msgstr ""
+"<strong>Achtung!</strong> Du blockierst externe Anfragen, so dass keine %s-"
+"Updates geladen werden können. Bitte füge %s zu deinen %s hinzu."
+
+msgid " Activation"
+msgstr "-Aktivierung"
+
+msgid " Product Key Activation"
+msgstr "-Produktschlüssel-Aktivierung"
+
+msgid "Product Key Activation"
+msgstr "Produktschlüssel-Aktivierung"
+
+msgid "Product Key Deactivation"
+msgstr "Produktschlüssel-Deaktivierung"
+
+msgid "Product Key"
+msgstr "Produktschlüssel"
+
+msgid "Product ID"
+msgstr "Produkt-ID"
+
+msgid "Product Key Status"
+msgstr "Produktschlüssel-Status"
+
+msgid "Deactivate Product Key"
+msgstr "Deaktiviere Produktschlüssel"
+
+msgid "Save Changes"
+msgstr "Änderungen speichern"
+
+msgid "Activated"
+msgstr "Aktiviert"
+
+msgid "Deactivated"
+msgstr "Deaktiviert"
+
+msgid ""
+"Connection failed to the Elmastudio server. Try again later. There may be a "
+"problem on your server preventing outgoing requests."
+msgstr ""
+"Die Verbindung zum Elmastudio-Server konnte nicht hergestellt werden. Bitte "
+"versuche es später erneut. Auf deinem Server könnte es ein Problem geben, "
+"welches ausgehende Verbindungen einschränkt."
+
+msgid "Product Key deactivated."
+msgstr "Produktschlüssel deaktiviert."
+
+msgid ""
+"The Product Key could not be deactivated. Use the Product Key Deactivation "
+"tab to manually deactivate the Product Key before activating a new Product "
+"Key."
+msgstr ""
+"Der Produktschlüssel konnte nicht deaktiviert werden. Klicke auf "
+"Produktschlüssel-Deaktivierung und deaktiviere den Produktschlüssel manuell "
+"bevor du den neuen Produktschlüssel aktivierst."
+
+msgid "Deactivates an Product Key so it can be used on another blog."
+msgstr ""
+"Deaktiviert einen Produktschlüssel, so dass dieser auf einer anderen Seite "
+"verwendet werden kann."
+
+msgid "%s activated."
+msgstr "%s aktiviert."
