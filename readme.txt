@@ -5,6 +5,10 @@ For the detailed theme documentation visit:
 
 Changelog:
 
+Version 1.0.10 (25/08/2026)
+-----------------------------------------------------------------------------------------------------------------------------
+- Fix: PHP 8 compatibility. Theme options and widget settings no longer trigger warnings; attachment pages, related posts and comment display fixed where affected.
+
 Version 1.0.9 (16/08/2021)
 ---
 - New: Remove theme support for block widget screens.
