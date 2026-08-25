@@ -390,3 +390,14 @@ require get_template_directory() . '/inc/shortcodes.php';
 /* Add One Click Demo Import code.
 /*-----------------------------------------------------------------------------------*/
 require get_template_directory() . '/inc/demo-installer.php';
+
+/* __php8_option_defaults: never let the theme options be false or miss a key (PHP 8). */
+function kioremoana_php8_option_defaults( $options = array() ) {
+	$fallback = array_fill_keys( array( 'share-posts', 'show-excerpt', 'custom_footertext', 'share-singleposts', 'info_page', 'link_color', 'linkhover_color', 'infobg_color', 'infobghover_color', 'custom_logo', 'hide-title', 'custom-css' ), '' );
+	if ( function_exists( 'kioremoana_get_default_theme_options' ) ) {
+		$fallback = array_merge( $fallback, (array) kioremoana_get_default_theme_options() );
+	}
+	return wp_parse_args( is_array( $options ) ? $options : array(), $fallback );
+}
+add_filter( 'default_option_kioremoana_theme_options', 'kioremoana_php8_option_defaults' );
+add_filter( 'option_kioremoana_theme_options', 'kioremoana_php8_option_defaults' );

@@ -22,6 +22,7 @@ class kioremoana_flickr extends WP_Widget {
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$id = $instance['id'];
@@ -50,6 +51,7 @@ class kioremoana_flickr extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'id' => '', 'number' => '', 'type' => '', 'sorting' => '' ) );
 		$title = esc_attr($instance['title']);
 		$id = esc_attr($instance['id']);
 		$number = esc_attr($instance['number']);
@@ -110,6 +112,7 @@ class kioremoana_video extends WP_Widget {
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$embedcode = $instance['embedcode'];
@@ -135,6 +138,7 @@ class kioremoana_video extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'embedcode' => '' ) );
 		$title = esc_attr($instance['title']);
 		$embedcode = esc_attr($instance['embedcode']);
 		?>
@@ -170,6 +174,7 @@ register_widget('kioremoana_video');
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'appnet' => '', 'flickr' => '', 'instagram' => '', 'picasa' => '', 'fivehundredpx' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'behance' => '', 'deviantart' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'github' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$twitter = $instance['twitter'];
@@ -364,6 +369,7 @@ register_widget('kioremoana_video');
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'twitter' => '', 'facebook' => '', 'googleplus' => '', 'appnet' => '', 'flickr' => '', 'instagram' => '', 'picasa' => '', 'fivehundredpx' => '', 'youtube' => '', 'vimeo' => '', 'dribbble' => '', 'ffffound' => '', 'pinterest' => '', 'behance' => '', 'deviantart' => '', 'squidoo' => '', 'slideshare' => '', 'lastfm' => '', 'grooveshark' => '', 'soundcloud' => '', 'foursquare' => '', 'github' => '', 'linkedin' => '', 'xing' => '', 'wordpress' => '', 'tumblr' => '', 'rss' => '', 'rsscomments' => '' ) );
 		$title = esc_attr($instance['title']);
 		$twitter = esc_attr($instance['twitter']);
 		$facebook = esc_attr($instance['facebook']);
@@ -562,6 +568,7 @@ class kioremoana_recentposts extends WP_Widget {
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'postnumber' => '', 'cat' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$postnumber = $instance['postnumber'];
@@ -618,6 +625,7 @@ class kioremoana_recentposts extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'postnumber' => '', 'cat' => '' ) );
 			 $title = esc_attr($instance['title']);
 			 $postnumber = esc_attr($instance['postnumber']);
 		$cat = esc_attr($instance['cat']);
@@ -659,6 +667,7 @@ class kioremoana_about extends WP_Widget {
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'imageurl' => '', 'imagewidth' => '', 'imageheight' => '', 'aboutsubtitle' => '', 'abouttext' => '' ) );
 		extract( $args );
 		$title = $instance['title'];
 		$imageurl = $instance['imageurl'];
@@ -685,6 +694,7 @@ class kioremoana_about extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'title' => '', 'imageurl' => '', 'imagewidth' => '', 'imageheight' => '', 'aboutsubtitle' => '', 'abouttext' => '' ) );
 		$title = esc_attr($instance['title']);
 		$imageurl = esc_attr($instance['imageurl']);
 		$imagewidth = esc_attr($instance['imagewidth']);
@@ -743,6 +753,7 @@ class kioremoana_headerslogan extends WP_Widget {
 	}
 
 	public function widget($args, $instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'slogantitle' => '', 'slogantext' => '' ) );
 		extract( $args );
 		$slogantitle = $instance['slogantitle'];
 		$slogantext = $instance['slogantext'];
@@ -766,6 +777,7 @@ class kioremoana_headerslogan extends WP_Widget {
 	 }
 
 	 function form($instance) {
+		/* __php8_keys */ $instance = wp_parse_args( (array) $instance, array( 'slogantitle' => '', 'slogantext' => '' ) );
 		$slogantitle = esc_attr($instance['slogantitle']);
 		$slogantext = esc_attr($instance['slogantext']);
 		?>
